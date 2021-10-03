@@ -1,5 +1,5 @@
 package com.rigid.email.service;
 
 public interface EmailService {
-    void sendSimpleMessage(String to, String subject, String context);
+    void sendTestMail(String email, String subject, String content);
 }
